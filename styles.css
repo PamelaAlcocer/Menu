@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://st3.depositphotos.com/1763191/37364/v/450/depositphotos_373645372-stock-illustration-seamless-background-design-yellow-lemons.jpg') repeat;
+    background-size: 100px 100px; /* Ajusta el tamaño de la imagen de fondo para que sea pequeña y cree un patrón tupido */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f1c40f; /* Cambiado de verde a amarillo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: #ffffff;
+    border: 2px solid #f1c40f; /* Cambiado de verde a amarillo */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); /* Cambiado de verde a amarillo */
+    border-radius: 10px;
+}
+
+th, td {
+    background-color: #fffacd; /* Cambiado de verde a un amarillo claro */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Cambiado de verde a amarillo */
+}
+
+.title {
+    background-color: #ffffe0; /* Cambiado de verde a un amarillo muy claro */
+    text-align: center;
+    border: none;
+}
+
+.decorative-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    color: #f1c40f; /* Cambiado de verde a amarillo */
+    text-shadow: 0 0 5px #f1c40f, 0 0 10px #f1c40f, 0 0 20px #f7e1a0, 0 0 30px #f7e1a0;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #f1c40f, 0 0 10px #f1c40f, 0 0 20px #f7e1a0, 0 0 30px #f7e1a0;
+    }
+    to {
+        text-shadow: 0 0 10px #f1c40f, 0 0 20px #f7e1a0, 0 0 30px #f7e1a0, 0 0 40px #f9e075;
+    }
+}
+
+.buttons {
+    background-color: #ffffe0; /* Cambiado de verde a un amarillo muy claro */
+    text-align: center;
+    border: none;
+}
+
+.profile-photo-table {
+    background-color: #ffffe0; /* Cambiado de verde a un amarillo muy claro */
+    text-align: center;
+    border: none;
+}
+
+.menu-button {
+    display: block;
+    background-color: #f1c40f; /* Cambiado de verde a amarillo */
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Cambiado de verde a amarillo */
+}
+
+.menu-button:hover {
+    background-color: #f7e1a0; /* Cambiado de verde a un amarillo más claro */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.7); /* Cambiado de verde a amarillo */
+    transform: translateY(-5px); /* Efecto de salto */
+}
+
+.image-frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #f1c40f; /* Cambiado de verde a amarillo */
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Cambiado de verde a amarillo */
+}
+
+.image-frame:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7); /* Cambiado de verde a amarillo */
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
